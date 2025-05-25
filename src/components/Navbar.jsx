@@ -13,7 +13,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         {/* Top container */}
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
-                <a href="#home" className="font-mono text-xl font-bold text-white"> graceC<span className="text-blue-500">.dev</span> </a>
+                <a href="#home" className="font-mono text-xl font-bold text-white"> graceC<span className="text-pink-500">.dev</span> </a>
 
                 {/* Hamburger menu for mobile view */ }
                 {!menuOpen && <div className="w-10 h-8 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>    
