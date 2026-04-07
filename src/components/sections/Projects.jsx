@@ -39,7 +39,7 @@ export const Projects = () => {
                     An AI-powered web app that helps users start their day positively by providing uplifting affirmations through a chatbot and allowing them to take timestamped selfies for daily reflection.
                     </p> 
                     <div className="flex flex-warp gap-2 mb-4">
-                        {["React", "FastAPI", "Axios", "webcam"].map((tech,key) => (
+                        {["React", "FastAPI", "Axios", "webcam" , "supabase"].map((tech,key) => (
                             <span 
                                 key = {key}
                                 className="bg-pink-500/10 text-pink-500 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20 
